@@ -7,7 +7,7 @@
     --sea1:#07B2D9; --sea2:#079DD9; --sea3:#0568A6; --sea4:#022340; --sea5:#011322;
 }
 body{
-    overflow-x:hidden;    
+    overflow-x:hidden; margin: 0; padding: 0; 
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 14px;font-weight: 400;
 }
@@ -15,10 +15,9 @@ input,textarea,button,select,a,div {
     -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
-#deep{
-    height: 900px;width: 1600px;
-    background-image: url('../images/web/webDepth1.png');
-    background-position: center;
+#droplets{
+    min-width: 100%;max-width: 100%;min-height: 100%;max-height: 100%;
+    background-image: linear-gradient(to bottom,var(--sea2),var(--sea3));
 }
 /* mobile portrait */
 @media only screen and (max-width: 567px){}
