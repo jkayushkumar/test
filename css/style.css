@@ -18,7 +18,7 @@ section{overflow: hidden;}
 #sea{
     position: absolute;z-index: -1;
     width: 100%;height: 100%;
-    transition: background 2s ease-in;
+    transition: background 1s ease-in;
     background-size: 100% 100%;    
 }
 .droplets1{
@@ -49,7 +49,8 @@ section{overflow: hidden;}
 }
 /* mobile portrait */
 @media only screen and (max-width: 567px){
-    .particles-js-canvas-el { height: 100vmax !important; }
+    #sea{bottom: 0;}
+    .particles-js-canvas-el { height: 100vh !important; }
 }
 /* mobile landscape, tab */
 @media only screen and (min-width: 568px) and (max-width: 1024px) {}
