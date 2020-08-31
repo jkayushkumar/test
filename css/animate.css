@@ -24,8 +24,8 @@
 @media only screen and (max-width: 567px){
     .fish2{width: 8%;}
     .goldfish{width: 5%;}
-    .orca{width: 15%;}
-    .hammer{width: 18%;}
+    .orca{width: 25%;}
+    .hammer{width: 30%;}
 }
 
 @keyframes swim2Right {
