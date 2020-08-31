@@ -21,6 +21,12 @@
     animation: swim2Left2 50s linear infinite;
 }
 
+@media only screen and (max-width: 567px){
+    .fish2{width: 8%;}
+    .goldfish{width: 5%;}
+    .orca{width: 15%;}
+    .hammer{width: 18%;}
+}
 
 @keyframes swim2Right {
     0% {top: 25%; left: -10%;} 
