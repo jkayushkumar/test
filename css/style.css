@@ -50,7 +50,7 @@ section{overflow: hidden;}
 /* mobile portrait */
 @media only screen and (max-width: 567px){
     #sea{bottom: 0;}
-    .particles-js-canvas-el { height: 100vh !important; }
+    .particles-js-canvas-el { height: 100% !important; }
 }
 /* mobile landscape, tab */
 @media only screen and (min-width: 568px) and (max-width: 1024px) {}
