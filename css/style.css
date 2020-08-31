@@ -21,40 +21,42 @@ section{overflow: hidden;}
     transition: background 1s ease-in;
     background-size: 100% 100%;    
 }
-.droplets1{
-    /* background-image: linear-gradient(to bottom,var(--sea2),var(--sea3));  */
+.droplets1{    
     background-image:url("../images/web/webDepth1.png")
 }
-.droplets2{
-    /* background-image: linear-gradient(to bottom,var(--sea3),var(--sea4));  */
+.droplets2{    
     background-image:url("../images/web/webDepth2.png")
 }
 
-.droplets3{
-    /* background-image: linear-gradient(to bottom,var(--sea4),var(--sea5));  */
+.droplets3{   
     background-image:url("../images/web/webDepth3.png")
 }
 
 #diveIn{
-    position: absolute;z-index: 1;cursor: pointer;
+    position: absolute;z-index: 2;cursor: pointer;
     height: 50px;width: 40%;bottom:10%;left: 30%;
     color: var(--theme1-c-active);
+    display: flex;text-align: center;justify-content: center;
     transition: background 3s ease-in;
 }
 #diveOut{
-    position: absolute;z-index: 1;cursor: pointer;
+    position: absolute;z-index: 2;cursor: pointer;
     height: 50px;width: 40%;top:10%;left: 30%;
     color: var(--theme1-c-active);
+    display: flex;text-align: center;justify-content: center;
     transition: background 3s ease-in;
 }
+.particles-js-canvas-el { z-index: 1; }
+.content{
+    z-index: -1;position: absolute;left: 10%;bottom: 20%;
+    height: 300px;width: 600px;
+    background-color: #0c0c0c;
+}
+
 /* mobile portrait */
 @media only screen and (max-width: 567px){
-    #sea{bottom: 0;}
+    #sea{ bottom: 0;}
     .particles-js-canvas-el { height: 100% !important; }
 }
 /* mobile landscape, tab */
 @media only screen and (min-width: 568px) and (max-width: 1024px) {}
-/* desktop small */
-@media only screen and (min-width: 1025px) and (max-width: 1280px) {}
-/* desktop large */
-@media only screen and (min-width: 1281px){}
