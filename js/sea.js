@@ -1,4 +1,4 @@
-particlesJS('droplets',
+particlesJS('sea',
   
   {
     "particles": {
@@ -6,7 +6,7 @@ particlesJS('droplets',
         "value": 50,
         "density": {
           "enable": true,
-          "value_area": 800
+          "value_area": 900
         }
       },
       "color": {
@@ -29,13 +29,14 @@ particlesJS('droplets',
       },
       "opacity": {
         "value": 0.4,
-        "random": false,
+        "random": true,
         "anim": {
           "enable": false,
           "speed": 1,
           "opacity_min": 0.1,
           "sync": false
         }
+
       },
       "size": {
         "value": 3,
@@ -106,15 +107,7 @@ particlesJS('droplets',
         }
       }
     },
-    "retina_detect": true,
-    "config_demo": {
-      "hide_card": false,
-      "background_color": "#b61924",
-      "background_image": "",
-      "background_position": "50% 50%",
-      "background_repeat": "no-repeat",
-      "background_size": "cover"
-    }
+    "retina_detect": true,    
   }
 
 );
