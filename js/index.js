@@ -1,3 +1,8 @@
+window.onload = function () {
+        document.getElementById("sea").classList.remove("droplets2");
+        document.getElementById("sea").classList.remove("droplets3");
+}
+
 function diveIN()
 {
     var depth1=document.getElementById("sea").classList.contains("droplets1");
@@ -9,7 +14,9 @@ function diveIN()
         document.getElementsByTagName('meta')["theme-color"].content = "#0568A6";
         document.getElementById("sea").classList.remove("droplets1");  
         document.getElementById("sea").classList.remove("droplets3"); 
-        document.getElementById("diveOut").classList.remove("noDisplay");     
+        document.getElementById("diveOut").classList.remove("noDisplay"); 
+        document.getElementById("fishLV3").classList.remove("noDisplay"); 
+        document.getElementById("fishLV1").classList.add("noDisplay");   
     }
     else
     {
@@ -20,6 +27,11 @@ function diveIN()
             document.getElementById("sea").classList.remove("droplets1");  
             document.getElementById("sea").classList.remove("droplets2"); 
             document.getElementById("diveIn").classList.add("noDisplay"); 
+            document.getElementById("fishLV3").classList.replace("orca","orca2");
+            document.getElementById("fishLV4").classList.remove("noDisplay"); 
+            document.getElementById("fishLV4B1").classList.remove("noDisplay");
+            document.getElementById("fishLV4B2").classList.remove("noDisplay");
+            document.getElementById("fishLV2").classList.add("noDisplay"); 
         }        
     }
 }
@@ -41,6 +53,8 @@ function diveOUT()
             document.getElementsByTagName('meta')["theme-color"].content = "#11a8e4";
             document.getElementById("sea").classList.remove("droplets2");
             document.getElementById("sea").classList.remove("droplets3");
+            document.getElementById("fishLV3").classList.add("noDisplay"); 
+            document.getElementById("fishLV1").classList.remove("noDisplay");
         }   
         else
         {
@@ -51,6 +65,11 @@ function diveOUT()
                 document.getElementById("sea").classList.remove("droplets1");
                 document.getElementById("sea").classList.remove("droplets3");
                 document.getElementById("diveIn").classList.remove("noDisplay");
+                document.getElementById("fishLV3").classList.replace("orca2","orca");
+                document.getElementById("fishLV4").classList.add("noDisplay");
+                document.getElementById("fishLV4B1").classList.add("noDisplay");
+                document.getElementById("fishLV4B2").classList.add("noDisplay"); 
+                document.getElementById("fishLV2").classList.remove("noDisplay"); 
             }
         }     
     }

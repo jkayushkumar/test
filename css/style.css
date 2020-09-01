@@ -18,7 +18,7 @@ section{overflow: hidden;}
 #sea{
     position: absolute;z-index: -1;
     width: 100%;height: 100%;
-    transition: background 1s ease-in;
+    transition: background 1s ease-in-out;
     background-size: 100% 100%;    
 }
 .droplets1{    
@@ -34,14 +34,14 @@ section{overflow: hidden;}
 
 #diveIn{
     position: absolute;z-index: 2;cursor: pointer;
-    height: 50px;width: 40%;bottom:10%;left: 30%;
+    height: 50px;width: 40%;bottom:5%;left: 30%;
     color: var(--theme1-c-active);
     display: flex;text-align: center;justify-content: center;
-    transition: background 3s ease-in;
+    transition: background 3s ease-in;    
 }
 #diveOut{
     position: absolute;z-index: 2;cursor: pointer;
-    height: 50px;width: 40%;top:10%;left: 30%;
+    height: 50px;width: 40%;top:5%;left: 30%;
     color: var(--theme1-c-active);
     display: flex;text-align: center;justify-content: center;
     transition: background 3s ease-in;
