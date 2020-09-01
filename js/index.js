@@ -1,8 +1,10 @@
 window.onload = function () {
-    window.setTimeout(function (){
-        document.getElementById("sea").classList.remove("droplets2");
+    window.setTimeout(function (){        
         document.getElementById("sea").classList.remove("droplets3");
-    }, 500);       
+        window.setTimeout(function (){
+            document.getElementById("sea").classList.remove("droplets2");       
+        }, 500);
+    }, 500);            
 }
 
 function diveIN()
