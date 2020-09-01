@@ -22,14 +22,16 @@ section{overflow: hidden;}
     background-size: 100% 100%;    
 }
 .droplets1{    
-    background-image:url("../images/web/webDepth1.png")
+    background-image:url("../images/web/webDepth1.png");    
 }
 .droplets2{    
-    background-image:url("../images/web/webDepth2.png")
+    background-image:url("../images/web/webDepth2.png");
+    background-repeat: repeat-x;
 }
 
 .droplets3{   
-    background-image:url("../images/web/webDepth3.png")
+    background-image:url("../images/web/webDepth3.png");
+    background-repeat: repeat-x;
 }
 
 #diveIn{
