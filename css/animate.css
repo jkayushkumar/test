@@ -1,27 +1,27 @@
 .noDisplay{ display: none !important;}
 .goldfish{ 
     position: absolute;width: 2%;z-index: 3;
-    content: url("../images/gif/godlfish.png");    
+    content: url("../images/gif/goldfish.gif");    
     animation: swim2Left 20s linear infinite;    
 }
 .fish2{ 
     position: absolute;width: 3%;z-index: 3;
-    content: url("../images/gif/fish2.png");    
+    content: url("../images/gif/fish2.gif");    
     animation: swim2Right 30s linear infinite;
 }
 .orca{ 
     position: absolute;width: 8%;z-index: 3;
-    content: url("../images/gif/orca.png");    
+    content: url("../images/gif/orca.gif");    
     animation: swim2Right2 40s linear infinite;
 }
 .orca2{ 
     position: absolute;width: 8%;z-index: 3;
-    content: url("../images/gif/orca.png");    
+    content: url("../images/gif/orca.gif");    
     animation: swim2Right3 40s linear infinite;
 }
 .hammer{ 
     position: absolute;width: 10%;z-index: 3;
-    content: url("../images/gif/hammer.png");    
+    content: url("../images/gif/hammer.gif");    
     animation: swim2Left2 50s linear infinite;
 }
 
@@ -92,7 +92,7 @@
 }
 @keyframes jellyRotate {
     0% {bottom: 20%; right: 30%;opacity: 0;}    
-    50% {bottom: 15%; right: 32%;transform: rotate(-180deg);opacity: .8;}	
+    50% {bottom: 15%; right: 32%;transform: rotate(-180deg) scale(.6);opacity: .8;}	
     100% {bottom: 20%; right: 30%;transform: rotate(-360deg);opacity: 0;}	
 }
 @keyframes jellyMove {
