@@ -1,6 +1,8 @@
 window.onload = function () {
+    window.setTimeout(function (){
         document.getElementById("sea").classList.remove("droplets2");
         document.getElementById("sea").classList.remove("droplets3");
+    }, 500);       
 }
 
 function diveIN()
