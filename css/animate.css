@@ -60,17 +60,17 @@
     30% {top: 65%; left: 40%;transform: rotate(5deg);}  
     40% {top: 70%; left: 60%;transform: rotate(-8deg);} 
     60% {top:60%; left: 85%;transform: rotate(-15deg);}
-    80% {top: 50%; left: 100%;transform: rotate(-25deg);}
+    80% {top: 50%; left: 100%;transform: rotate(-25deg);opacity: 0;}
     100% {top: 40%; left: 100%;}	
 }
 @keyframes swim2Right3 {
-    0% {top: 10%; left: -10%;transform: rotate(5deg);} 
+    0% {top: 10%; left: -10%;transform: rotate(5deg);opacity: 0;} 
     20% {top: 20%; left: 20%;transform: rotate(5deg);}   
-    30% {top: 25%; left: 40%;transform: rotate(5deg);}  
+    30% {top: 25%; left: 40%;transform: rotate(5deg);opacity: 1;}  
     40% {top: 30%; left: 60%;transform: rotate(-8deg);} 
     60% {top:20%; left: 85%;transform: rotate(-15deg);}
     80% {top: 10%; left: 100%;transform: rotate(-25deg);}
-    100% {top: 10%; left: 100%;}	
+    100% {top: 10%; left: 100%;opacity: 0;}	
 }
 @keyframes swim2Left {
     0% {top: 3%; right: -10%;} 
@@ -82,10 +82,10 @@
     100% {top: 3%; right: 100%;}	
 }
 @keyframes swim2Left2 {
-    0% {bottom: 50%; right: -10%;} 
+    0% {bottom: 50%; right: -10%;opacity: 0;} 
     20% {bottom: 30%; right: 20%;transform: rotate(-10deg);}   
     30% {bottom: 30%; right: 40%;transform: rotate(-5deg);}  
-    40% {bottom: 20%; right: 60%;transform: rotate(0deg);} 
+    40% {bottom: 20%; right: 60%;transform: rotate(0deg);opacity: 0.9;} 
     60% {bottom: 10%; right: 80%;transform: rotate(-15deg);}
     80% {bottom: 1%; right: 100%;transform: rotate(0deg);}
     100% {bottom: 1%; right: 100%;}	
