@@ -3,8 +3,8 @@ window.onload = function () {
         document.getElementById("sea").classList.remove("droplets3");
         window.setTimeout(function (){
             document.getElementById("sea").classList.remove("droplets2");       
-        }, 500);
-    }, 500);            
+        }, 100);
+    }, 100);            
 }
 
 function diveIN()
