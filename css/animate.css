@@ -45,7 +45,6 @@
     .jelly{width: 8%;}
     .jelly2{width: 10%;}
 }
-
 @keyframes swim2Right {
     0% {top: 25%; left: -10%;} 
     20% {top: 22%; left: 20%;}
