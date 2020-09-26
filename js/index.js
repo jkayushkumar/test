@@ -14,20 +14,19 @@ function diveIN()
     var depth3=document.getElementById("sea").classList.contains("droplets3");
     if(depth1)
     {
-        document.getElementById("sea").classList.add("droplets2");
-        document.getElementsByTagName('meta')["theme-color"].content = "#0568A6";
+        document.getElementById("sea").classList.add("droplets2");        
         document.getElementById("sea").classList.remove("droplets1");  
         document.getElementById("sea").classList.remove("droplets3"); 
         document.getElementById("diveOut").classList.remove("noDisplay"); 
         document.getElementById("fishLV3").classList.remove("noDisplay"); 
-        document.getElementById("fishLV1").classList.add("noDisplay");   
+        document.getElementById("fishLV1").classList.add("noDisplay"); 
+        window.setTimeout(function (){document.getElementsByTagName('meta')["theme-color"].content = "#0568A6";},2000);  
     }
     else
     {
         if(depth2)
         {
             document.getElementById("sea").classList.add("droplets3");
-            document.getElementsByTagName('meta')["theme-color"].content = "#022340";
             document.getElementById("sea").classList.remove("droplets1");  
             document.getElementById("sea").classList.remove("droplets2"); 
             document.getElementById("diveIn").classList.add("noDisplay"); 
@@ -36,6 +35,7 @@ function diveIN()
             document.getElementById("fishLV4B1").classList.remove("noDisplay");
             document.getElementById("fishLV4B2").classList.remove("noDisplay");
             document.getElementById("fishLV2").classList.add("noDisplay"); 
+            window.setTimeout(function (){document.getElementsByTagName('meta')["theme-color"].content = "#022340";},2000);
         }        
     }
 }
@@ -53,19 +53,18 @@ function diveOUT()
         if(depth2)
         {
             document.getElementById("diveOut").classList.add("noDisplay");
-            document.getElementById("sea").classList.add("droplets1");  
-            document.getElementsByTagName('meta')["theme-color"].content = "#11a8e4";
+            document.getElementById("sea").classList.add("droplets1");
             document.getElementById("sea").classList.remove("droplets2");
             document.getElementById("sea").classList.remove("droplets3");
             document.getElementById("fishLV3").classList.add("noDisplay"); 
             document.getElementById("fishLV1").classList.remove("noDisplay");
+            window.setTimeout(function (){document.getElementsByTagName('meta')["theme-color"].content = "#11a8e4";},2000);
         }   
         else
         {
             if(depth3)
             {
-                document.getElementById("sea").classList.add("droplets2"); 
-                document.getElementsByTagName('meta')["theme-color"].content = "#0568A6"; 
+                document.getElementById("sea").classList.add("droplets2");
                 document.getElementById("sea").classList.remove("droplets1");
                 document.getElementById("sea").classList.remove("droplets3");
                 document.getElementById("diveIn").classList.remove("noDisplay");
@@ -74,6 +73,7 @@ function diveOUT()
                 document.getElementById("fishLV4B1").classList.add("noDisplay");
                 document.getElementById("fishLV4B2").classList.add("noDisplay"); 
                 document.getElementById("fishLV2").classList.remove("noDisplay"); 
+                window.setTimeout(function (){document.getElementsByTagName('meta')["theme-color"].content = "#0568A6"; },2000);
             }
         }     
     }
