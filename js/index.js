@@ -19,8 +19,8 @@ function diveIN()
         document.getElementById("sea").classList.remove("droplets3"); 
         document.getElementById("diveOut").classList.remove("noDisplay"); 
         document.getElementById("fishLV3").classList.remove("noDisplay"); 
-        document.getElementById("fishLV1").classList.add("noDisplay"); 
-        document.getElementsByTagName('meta')["theme-color"].content = "#0568A6";  
+        document.getElementById("fishLV1").classList.add("noDisplay");
+        window.setTimeout(function (){document.getElementsByTagName('meta')["theme-color"].content = "#0568A6"; },1500); 
     }
     else
     {
@@ -35,7 +35,7 @@ function diveIN()
             document.getElementById("fishLV4B1").classList.remove("noDisplay");
             document.getElementById("fishLV4B2").classList.remove("noDisplay");
             document.getElementById("fishLV2").classList.add("noDisplay"); 
-            document.getElementsByTagName('meta')["theme-color"].content = "#022340";
+            window.setTimeout(function (){document.getElementsByTagName('meta')["theme-color"].content = "#022340";},1500);
         }        
     }
 }
@@ -58,7 +58,7 @@ function diveOUT()
             document.getElementById("sea").classList.remove("droplets3");
             document.getElementById("fishLV3").classList.add("noDisplay"); 
             document.getElementById("fishLV1").classList.remove("noDisplay");
-            document.getElementsByTagName('meta')["theme-color"].content = "#11a8e4";
+            window.setTimeout(function (){document.getElementsByTagName('meta')["theme-color"].content = "#11a8e4";},1500);
         }   
         else
         {
@@ -73,7 +73,7 @@ function diveOUT()
                 document.getElementById("fishLV4B1").classList.add("noDisplay");
                 document.getElementById("fishLV4B2").classList.add("noDisplay"); 
                 document.getElementById("fishLV2").classList.remove("noDisplay"); 
-                document.getElementsByTagName('meta')["theme-color"].content = "#0568A6";
+                window.setTimeout(function (){document.getElementsByTagName('meta')["theme-color"].content = "#0568A6";},1500);
             }
         }     
     }
