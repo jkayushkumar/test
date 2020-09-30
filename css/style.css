@@ -7,13 +7,54 @@
 body{
     overflow:hidden; 
     margin: 0; padding: 0; 
-    font-family: -apple-system, Roboto, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:Roboto,'Open Sans','Source Sans Pro','Work Sans','Segoe UI', Tahoma, sans-serif;
     font-size: 14px;font-weight: 400;
 }
 input,textarea,button,select,a,div {
     -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 section{overflow: hidden;}
+.whoAmI{
+    position: absolute;padding: 20px;top:20%;
+    left: 50%;transform: translateX(-50%);
+    text-align: center;
+    font-size: 46px;
+    font-weight: 500;
+    color: var(--theme1-c1);
+}
+.head{
+    font-size: 30px;
+}
+.subhead
+{
+    font-size: 36px;
+    
+}
+.intro{
+    font-size: 20px;
+    text-align: justify;
+}
+#go{
+    position: absolute; padding: 10px;
+    left: 50%;transform: translateX(-50%);
+    bottom: 5%;
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--theme1-c1);
+    text-align: center;
+}
+.quickLinks{
+    position: fixed;
+    z-index: 4;
+    right: 1%;
+    top: 20%;
+}
+.hideall{
+    position: fixed;
+    z-index: 4;
+    left: 1%;
+    top: 20%;
+}
 #surface{
     position: absolute;z-index: 0;
     height: 85.5%;width: 100%;top: 0;
@@ -74,29 +115,24 @@ section{overflow: hidden;}
     /* background-repeat: repeat-x; */
     background-size: 100% 100%;
 }
-#diveIn1{
-    position: absolute;z-index: 2;cursor: pointer;
-    bottom:3%;padding: 10px;
-    left: 50%;transform: translateX(-50%);
-    color: var(--theme1-c-active);
-    display: flex;text-align: center;justify-content: center;
-    transition: background 3s ease-in;    
-}
 #diveIn{
     position: fixed;z-index: 2;cursor: pointer;
-    padding: 10px;bottom:5%;
+    padding: 10px;bottom:3%;
     left: 50%;transform: translateX(-50%);
     color: var(--theme1-c-active);
     display: flex;text-align: center;justify-content: center;
-    transition: background 3s ease-in;    
+    border: 2px solid var(--theme1-c-active);
+    border-radius: 10px;
+    font-size: 20px;
 }
 #diveOut{
     position: fixed;z-index: 2;cursor: pointer;
-    padding: 10px;top:5%;
+    padding: 10px;top:3%;
     left: 50%;transform: translateX(-50%);
     color: var(--theme1-c-active);
     display: flex;text-align: center;justify-content: center;
-    transition: background 3s ease-in;
+    border: 2px solid var(--theme1-c-active);
+    border-radius: 10px;
 }
 .particles-js-canvas-el { z-index: 1; }
 .content{
@@ -110,6 +146,55 @@ section{overflow: hidden;}
     #sea{ bottom: 0;}
     .particles-js-canvas-el { height: 100% !important; }
     #sailboat{height: 35%;}
+    .whoAmI{
+        font-size: 26px;
+        font-weight: 400;
+        color: var(--theme1-c1);
+        width: 85%;
+    }
+    .head{
+        font-size: 16px;
+    }
+    .subhead
+    {
+        font-size: 20px;
+        
+    }
+    .intro{
+        font-size: 12px;
+        text-align: justify;
+    }
+    #go{
+        font-size: 12px;
+        font-weight: 400;
+        text-align: center;
+        width: 80%;
+    }
 }
 /* mobile landscape, tab */
-@media only screen and (min-width: 568px) and (max-width: 1024px) {}
+@media only screen and (min-width: 568px) and (max-width: 1024px) {
+    .whoAmI{
+        font-size: 26px;
+        font-weight: 400;
+        color: var(--theme1-c1);
+        width: 60%;
+    }
+    .head{
+        font-size: 16px;
+    }
+    .subhead
+    {
+        font-size: 20px;
+        
+    }
+    .intro{
+        font-size: 12px;
+        text-align: justify;
+    }
+    #go{
+        font-size: 12px;
+        font-weight: 400;
+        text-align: center;
+        width: 80%;
+    }
+}

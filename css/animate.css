@@ -36,7 +36,7 @@
     animation: jellyMove 60s linear infinite;
 }
 .sailboatAnimate{
-    animation: float 10s linear infinite;
+    animation: float 60s linear infinite;
 }
 
 @media only screen and (max-width: 567px){
@@ -107,9 +107,9 @@
     100% {bottom: 0%; left: 35%;opacity: 0;}	
 }
 @keyframes float {
-    0% {bottom: 0%; left: 5%;}
-    30% {bottom: 0.3%; left: 6%;}
-    60% {bottom:0.6%; left: 5.8%;}
-    80% {bottom: 1%; left:5%;}
-    100% {bottom: 0%; left: 5%;}	
+    0% {bottom: 0%; left: -20%;}
+    30% {bottom: 0.3%; left: 20%;}
+    60% {bottom:0.6%; left: 60%;}
+    80% {bottom: 1%; left:80%;}
+    100% {bottom: 0%; left: 120%;}	
 }
