@@ -13,7 +13,7 @@ function diveINSurface(){
     var depth3=document.getElementById("sea").classList.contains("droplets3");
     if(depth0)
     {
-        $("#surface").animate({top:'-85%'},1500)
+        $("#surface").animate({top:'-85%'},1550)
         $("#sea").animate({top:'0'},1500)  
         document.getElementById("diveIn1").classList.add("noDisplay"); 
         document.getElementById("diveOut").classList.remove("noDisplay"); 
