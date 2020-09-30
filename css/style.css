@@ -25,7 +25,7 @@ section{overflow: hidden;}
 .seaWave{
     position: absolute;z-index: -2;
     height: 3%;width: 100%;bottom: 0;    
-    background-image: url("../images/web/webDepth1_1.png");
+    background-image: url("../images/web/surfaceWave.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -48,16 +48,19 @@ section{overflow: hidden;}
     background-size: 100% 100%;    
 }
 .droplets1{    
-        background-image:url("../images/web/webDepth1.png");    
+    background-image:url("../images/web/webDepth1.png");    
+    background-size: 100% 100%;
 }
 .droplets2{    
-    background-image:url("../images/web/webDepth2.png");
-    background-repeat: repeat-x;
+    background-image:url("../images/web/webDepth2_2.png");
+    /* background-repeat: repeat-x; */
+    background-size: 100% 100%;
 }
 
 .droplets3{   
-    background-image:url("../images/web/webDepth3.png");
-    background-repeat: repeat-x;
+    background-image:url("../images/web/webDepth3_2.png");
+    /* background-repeat: repeat-x; */
+    background-size: 100% 100%;
 }
 #diveIn1{
     position: absolute;z-index: 2;cursor: pointer;
