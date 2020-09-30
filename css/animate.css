@@ -35,6 +35,9 @@
     content: url("../images/gif/jelly2.png");    
     animation: jellyMove 60s linear infinite;
 }
+.sailboatAnimate{
+    animation: float 10s linear infinite;
+}
 
 @media only screen and (max-width: 567px){
     .fish2{width: 8%;}
@@ -102,4 +105,11 @@
     60% {bottom: 20%; left: 10%;opacity: 1;}
     80% {bottom: 10%; left: 30%;opacity: .8;}
     100% {bottom: 0%; left: 35%;opacity: 0;}	
+}
+@keyframes float {
+    0% {bottom: 0%; left: 5%;}
+    30% {bottom: 0.3%; left: 6%;}
+    60% {bottom:0.6%; left: 5.8%;}
+    80% {bottom: 1%; left:5%;}
+    100% {bottom: 0%; left: 5%;}	
 }

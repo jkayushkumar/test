@@ -2,8 +2,8 @@
 <html>
     <head>
         <meta name="viewport" content="user-scalable=no, width=device-width,height=device-height, initial-scale=1.0"/>
-        <meta name="theme-color" content='#11a8e4'/>
-        <link rel="icon" href="images/logo/logo.png">
+        <meta name="theme-color" content='#efefef'/>
+        <link rel="icon" href="images/logo/ayushH.png">
         <title>Ayush</title>
         <link rel="stylesheet" href="css/style.css">  
         <link rel="stylesheet" href="css/animate.css">
@@ -11,19 +11,30 @@
         <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>         
         <script type="text/javascript" src="js/particles.min.js"></script>       
         <script type="text/javascript" src="js/index.js"></script>
+        <script>  
+            window.onbeforeunload = function () {
+                window.scrollTo(0, 0);
+            }; 
+        </script>
     </head>
-    <body ontouchstart="">        
+    <body ontouchstart="">
+        <div id="surface">
+            <div class="seaWave"></div>
+            <div id="sailboat" class="sailboatAnimate"></div>
+        </div> 
+        <div id="diveIn1" onclick="diveINSurface()">Dive In</div> 
         <div id="sea" class="droplets1 droplets2 droplets3">
             <!-- <div class="content"></div> -->
+            <div id="diveOut"onclick="diveOUT()" class="noDisplay">Dive Out</div>  
+            <div id="diveIn" onclick="diveIN()">Dive In</div>
+            <div id="fishLV1" class="goldfish"></div>
+            <div id="fishLV2" class="fish2"></div>
+            <img id="fishLV3" class="orca noDisplay"></img>
+            <div id="fishLV4" class="hammer noDisplay"></div>
+            <div id="fishLV4B1" class="jelly noDisplay"></div>
+            <div id="fishLV4B2" class="jelly2 noDisplay"></div>
         </div>
         <script src="js/sea.js"></script>
-        <div id="diveOut"onclick="diveOUT()" class="noDisplay">Dive Out</div>  
-        <div id="diveIn" onclick="diveIN()">Dive In</div>
-       <div id="fishLV1" class="goldfish"></div>
-       <div id="fishLV2" class="fish2"></div>
-       <img id="fishLV3" class="orca noDisplay"></img>
-       <div id="fishLV4" class="hammer noDisplay"></div>
-       <div id="fishLV4B1" class="jelly noDisplay"></div>
-       <div id="fishLV4B2" class="jelly2 noDisplay"></div>        
+                
     </body>
 </html>
