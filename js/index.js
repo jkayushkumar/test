@@ -68,7 +68,7 @@ function diveOUT()
         document.getElementById("diveIn1").classList.remove("noDisplay"); 
         document.getElementById("diveOut").classList.add("noDisplay");
         document.getElementById("sea").classList.remove("noSeaSurface");
-        document.getElementsByTagName('meta')["theme-color"].content = "#efefef";
+        document.getElementsByTagName('meta')["theme-color"].content = "#f19ca2";
     }
     else
     {
