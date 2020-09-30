@@ -48,13 +48,13 @@ section{overflow: hidden;}
     background-size: 100% 100%;    
 }
 #depth1{
-    height: 100vmax;width: 100%;
+    height: 100vh;width: 100%;
 }
 #depth2{
-    height: 100vmax;width: 100%;
+    height: 100vh;width: 100%;
 }
 #depth3{
-    height: 100vmax;width: 100%;
+    height: 100vh;width: 100%;
 }
 .ontop{
     padding: 10px;
