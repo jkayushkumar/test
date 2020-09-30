@@ -2,7 +2,7 @@
 .drone{
     position: absolute;
     z-index: 6;
-    transform: scale(0.35);     
+    transform: scale(0.3);     
     animation: droneFly 30s linear 0s infinite;
     /* -webkit-animation: droneFly 4s cubic-bezier(0, 0.2, 1, 0.8) 0s infinite;  */
 }
@@ -238,11 +238,11 @@
     100%{-webkit-transform: rotate(-360deg) }
 }
 @keyframes droneFly{
-    0%{top: 75%; left: 40%} 
-    20%{top: 60%; left: 70%}                
-    33%{top:18%;left: 85%; }
-    50%{top:40%;left: 30%; }
-    66%{top:18%;left: 2%; }
-    90%{top:65%;left: 30%; }
-    100%{top: 75%;left: 40% }
+    0%{top: 10%; left: 40%} 
+    20%{top:8%; left: 70%}                
+    33%{top:15%;left: 85%; }
+    50%{top:6%;left: 30%; }
+    66%{top:15%;left: 2%; }
+    90%{top:12%;left: 30%; }
+    100%{top: 10%;left: 40% }
 }
