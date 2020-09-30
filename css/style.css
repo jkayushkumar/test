@@ -42,10 +42,22 @@ section{overflow: hidden;}
 #sea{
     position: absolute;z-index: 1;
     width: 100%;
-    height: 100%;
+    height: 300%;
     top: 85%;
     transition: background 1.5s ease-in-out;
     background-size: 100% 100%;    
+}
+#depth1{
+    height: 100vmax;width: 100%;
+}
+#depth2{
+    height: 100vmax;width: 100%;
+}
+#depth3{
+    height: 100vmax;width: 100%;
+}
+.ontop{
+    padding: 10px;
 }
 .droplets1{    
     background-image:url("../images/web/webDepth1.png");    
@@ -71,7 +83,7 @@ section{overflow: hidden;}
     transition: background 3s ease-in;    
 }
 #diveIn{
-    position: absolute;z-index: 2;cursor: pointer;
+    position: fixed;z-index: 2;cursor: pointer;
     padding: 10px;bottom:5%;
     left: 50%;transform: translateX(-50%);
     color: var(--theme1-c-active);
@@ -79,7 +91,7 @@ section{overflow: hidden;}
     transition: background 3s ease-in;    
 }
 #diveOut{
-    position: absolute;z-index: 2;cursor: pointer;
+    position: fixed;z-index: 2;cursor: pointer;
     padding: 10px;top:5%;
     left: 50%;transform: translateX(-50%);
     color: var(--theme1-c-active);

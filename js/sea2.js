@@ -1,4 +1,4 @@
-particlesJS('depth1',
+particlesJS('depth2',
   
   {
     "particles": {
