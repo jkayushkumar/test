@@ -45,7 +45,7 @@ section{overflow: hidden;}
 #surface{
     position: absolute;z-index: 0;
     height: 85.5%;width: 100%;top: 0;
-    background-image: url("../images/web/surfaceSky.png");
+    background-image: url("../images/web/surfaceSky2.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -88,15 +88,18 @@ section{overflow: hidden;}
     padding: 10px;
 }
 .droplets1{    
+    position: absolute;top: 0;
     background-image:url("../images/web/webDepth1.png");    
     background-size: 100% 100%;
 }
-.droplets2{    
+.droplets2{  
+    position: absolute;top: 33.33%;  
     background-image:url("../images/web/webDepth2_2.png");
     background-size: 100% 100%;
 }
 
-.droplets3{   
+.droplets3{  
+    position: absolute;top: 66.66%; 
     background-image:url("../images/web/webDepth3_2.png");
     background-size: 100% 100%;
 }
