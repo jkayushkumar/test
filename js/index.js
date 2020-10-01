@@ -31,7 +31,6 @@ function diveIN()
         document.getElementById("depth3").classList.remove("ontop");
         window.setTimeout(function (){
             document.getElementsByTagName('meta')["theme-color"].content = "#0568A6";
-            document.getElementById("join").style.backgroundColor="#0568A6"; 
             document.getElementById("depth1").classList.add("noDisplay");            
         },1500);
     }
@@ -45,7 +44,6 @@ function diveIN()
         document.getElementById("diveIn").classList.add("noDisplay");
         window.setTimeout(function (){
             document.getElementsByTagName('meta')["theme-color"].content = "#022340";
-            document.getElementById("join").style.backgroundColor="#022340";
             document.getElementById("depth2").classList.add("noDisplay"); },1500);
     }
    
@@ -78,7 +76,6 @@ function diveIN()
         document.getElementById("depth3").classList.remove("ontop");
         window.setTimeout(function (){
             document.getElementsByTagName('meta')["theme-color"].content = "#11a8e4"; 
-            document.getElementById("join").style.backgroundColor="#11a8e4";
             document.getElementById("depth2").classList.add("noDisplay");
             document.getElementById("depth3").classList.add("noDisplay");
         },1500);
@@ -93,7 +90,6 @@ function diveIN()
         document.getElementById("diveIn").classList.remove("noDisplay");
         window.setTimeout(function (){
             document.getElementsByTagName('meta')["theme-color"].content = "#0568A6"; 
-            document.getElementById("join").style.backgroundColor="#0568A6";
             document.getElementById("depth1").classList.add("noDisplay");
             document.getElementById("depth3").classList.add("noDisplay");
         },1500);
