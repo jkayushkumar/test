@@ -20,7 +20,7 @@ section{overflow: hidden;}
     text-align: center;
     font-size: 46px;
     font-weight: 500;
-    color: var(--sea3);
+    color: var(--theme1-c1);
 }
 .head{
     font-size: 30px;
@@ -28,7 +28,6 @@ section{overflow: hidden;}
 .subhead
 {
     font-size: 36px;
-    
 }
 .intro{
     font-size: 20px;
@@ -40,29 +39,8 @@ section{overflow: hidden;}
     bottom: 5%;
     font-size: 20px;
     font-weight: 500;
-    color: var(--sea3);
+    color: var(--theme1-c1);
     text-align: center;
-}
-.quickLinks{
-    position: fixed;z-index: 2;    
-    right: 1%;
-    bottom: 20%;width: 26px;height: 50%;
-    justify-content: center;
-}
-.quickLinkRow{
-    height: 25px;width: 25px;
-    right: 1%;
-    border: 1px solid #FFFFFF;
-    cursor: pointer;
-}
-.iconLink{
-    padding: 4px;
-}
-.hideall{
-    position: fixed;
-    z-index: 4;
-    left: 1%;
-    top: 20%;
 }
 #surface{
     position: absolute;z-index: 0;
@@ -115,13 +93,11 @@ section{overflow: hidden;}
 }
 .droplets2{    
     background-image:url("../images/web/webDepth2_2.png");
-    /* background-repeat: repeat-x; */
     background-size: 100% 100%;
 }
 
 .droplets3{   
     background-image:url("../images/web/webDepth3_2.png");
-    /* background-repeat: repeat-x; */
     background-size: 100% 100%;
 }
 #diveIn{
@@ -130,8 +106,7 @@ section{overflow: hidden;}
     left: 50%;transform: translateX(-50%);
     color: var(--theme1-c-active);
     display: flex;text-align: center;justify-content: center;
-    /* border: 2px solid var(--theme1-c-active);
-    border-radius: 10px; */
+    font-size: 16px;    
 }
 #diveOut{
     position: fixed;z-index: 2;cursor: pointer;
@@ -139,15 +114,9 @@ section{overflow: hidden;}
     left: 50%;transform: translateX(-50%);
     color: var(--theme1-c-active);
     display: flex;text-align: center;justify-content: center;
-    /* border: 2px solid var(--theme1-c-active);
-    border-radius: 10px; */
+    font-size: 16px;
 }
 .particles-js-canvas-el { z-index: 1; }
-.content{
-    z-index: -1;position: absolute;left: 10%;bottom: 20%;
-    height: 300px;width: 600px;
-    background-color: #0c0c0c;
-}
 
 /* mobile portrait */
 @media only screen and (max-width: 567px){
@@ -177,18 +146,6 @@ section{overflow: hidden;}
         font-weight: 500;
         text-align: center;
         width: 80%;
-    }
-    #diveIn{
-        bottom: 5%;
-    }
-    .quickLinks{
-        bottom: 0;height: 20px;width: auto;
-        align-items: center;
-        left: 50%;transform: translateX(-50%);
-        text-align: center;
-    }
-    .quickLinkRow{
-        height: 20px;width: 20px;
     }
 }
 /* mobile landscape, tab */
