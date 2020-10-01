@@ -5,7 +5,7 @@
     --sea1:#07B2D9; --sea2:#11a8e4; --sea3:#0568A6; --sea4:#022340; --sea5:#011322;
 }
 body{
-    overflow:hidden; 
+    overflow-x:hidden; 
     margin: 0; padding: 0; 
     font-family:Roboto,'Open Sans','Source Sans Pro','Work Sans','Segoe UI', Tahoma, sans-serif;
     font-size: 14px;font-weight: 400;
@@ -79,18 +79,18 @@ section{overflow: hidden;}
     height: 101vh;width: 100%;
 }
 #join12{
-    z-index: -1;position: absolute;
+    position: absolute;z-index: -1;
     height: 4vh;width: 100%;
-    top: 99vh;
+    top: 33%;
     background-color: var(--sea3);
 }
 #depth2{
     height: 101vh;width: 100%;
 }
 #join23{
-    z-index: -1;position: absolute;
+    position: absolute;z-index: -1;
     height: 4vh;width: 100%;
-    top: 199vh;
+    top: 66%;
     background-color: var(--sea4);
 }
 #depth3{
