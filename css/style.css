@@ -78,8 +78,18 @@ section{overflow: hidden;}
 #depth1{
     height: 101vh;width: 100%;
 }
+#join12{
+position: absolute;z-index: -1;
+top: 99vh;height: 4vh;width: 100%;
+background-color: var(--sea3);
+}
 #depth2{
     height: 101vh;width: 100%;
+}
+#join23{
+    position: absolute;z-index: -1;
+    top: 199vh;height: 4vh;width: 100%;
+    background-color: var(--sea4);
 }
 #depth3{
     height: 101vh;width: 100%;
