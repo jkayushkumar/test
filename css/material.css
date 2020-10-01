@@ -2,7 +2,7 @@
 .drone{
     position: absolute;
     z-index: 6;
-    transform: scale(0.3);     
+    transform: scale(0.2);     
     animation: droneFly 30s linear 0s infinite;
     /* -webkit-animation: droneFly 4s cubic-bezier(0, 0.2, 1, 0.8) 0s infinite;  */
 }
@@ -245,4 +245,7 @@
     66%{top:15%;left: 2%; }
     90%{top:12%;left: 30%; }
     100%{top: 10%;left: 40% }
+}
+@media only screen and (max-width: 567px){
+    .drone{transform: scale(0.15);}
 }

@@ -17,7 +17,7 @@ function diveIN()
         document.getElementById("depth3").classList.remove("ontop");
         document.getElementById("diveOut").classList.remove("noDisplay");
         window.setTimeout(function (){
-            document.getElementsByTagName('meta')["theme-color"].content = "#11a8e4"; 
+            document.getElementsByTagName('meta')["theme-color"].content = "#0da3d5"; 
             document.getElementById("surface").classList.add("noDisplay");
         },1500);
        
@@ -75,7 +75,7 @@ function diveIN()
         document.getElementById("depth2").classList.remove("ontop");
         document.getElementById("depth3").classList.remove("ontop");
         window.setTimeout(function (){
-            document.getElementsByTagName('meta')["theme-color"].content = "#11a8e4"; 
+            document.getElementsByTagName('meta')["theme-color"].content = "#0da3d5"; 
             document.getElementById("depth2").classList.add("noDisplay");
             document.getElementById("depth3").classList.add("noDisplay");
         },1500);

@@ -5,7 +5,7 @@
     --sea1:#07B2D9; --sea2:#11a8e4; --sea3:#0568A6; --sea4:#022340; --sea5:#011322;
 }
 body{
-    overflow-x:hidden; 
+    overflow:hidden; 
     margin: 0; padding: 0; 
     font-family:Roboto,'Open Sans','Source Sans Pro','Work Sans','Segoe UI', Tahoma, sans-serif;
     font-size: 14px;font-weight: 400;
@@ -61,7 +61,7 @@ section{overflow: hidden;}
 #sailboat{
     position: absolute;z-index: -1;
     bottom: 0;left: 5%;
-    height: 55%;
+    height: 40%;
     content: url("../images/web/sailboat.png");
 }
 .noSeaSurface{
@@ -137,7 +137,7 @@ section{overflow: hidden;}
 @media only screen and (max-width: 567px){
     #sea{ bottom: 0;}
     .particles-js-canvas-el { height: 100% !important; }
-    #sailboat{height: 35%;}
+    #sailboat{height: 30%;}
     .whoAmI{
         font-size: 26px;
         font-weight: 500;
