@@ -65,7 +65,7 @@ function diveIN()
         document.getElementById("depth3").classList.remove("ontop");
         document.getElementById("diveOut").classList.add("noDisplay");
         document.getElementById("diveIn").classList.remove("noDisplay");
-        document.getElementsByTagName('meta')["theme-color"].content = "#f19ca2";
+        document.getElementsByTagName('meta')["theme-color"].content = "#f4d4ce";
     }
     if(!depth1 && depth2 && !depth3)
     {
