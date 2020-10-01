@@ -93,18 +93,18 @@
     100% {bottom: 10%; right: 100%;}	
 }
 @keyframes jellyRotate {
-    0% {bottom: 10%; right: 10%;opacity: 0;}    
-    50% {bottom: 5%; right: 12%;transform: rotate(-180deg) scale(.6);opacity: .8;}	
-    100% {bottom: 10%; right: 10%;transform: rotate(-360deg);opacity: 0;}	
+    0% {bottom: 20%; right: 20%;opacity: 0;}    
+    50% {bottom: 15%; right: 22%;transform: rotate(-180deg) scale(.6);opacity: .8;}	
+    100% {bottom: 20%; right: 20%;transform: rotate(-360deg);opacity: 0;}	
 }
 @keyframes jellyMove {
     0% {bottom: 0%; left: 90%;opacity: 0;} 
-    20% {bottom: 5%; left: 95%;opacity: 1;}   
-    30% {bottom: 15%; left: 100%;opacity: 0;}    
-    40% {bottom: 30%; left: 0%;opacity: 0;} 
-    50% {bottom: 15%; left: 10%;opacity: 1;}
-    80% {bottom: 12%; left: 30%;opacity: .8;}
-    100% {bottom: 10%; left: 35%;opacity: 0;}	
+    20% {bottom: 15%; left: 95%;opacity: 1;}   
+    30% {bottom: 25%; left: 100%;opacity: 0;}    
+    40% {bottom: 40%; left: 0%;opacity: 0;} 
+    50% {bottom: 25%; left: 10%;opacity: 1;}
+    80% {bottom: 22%; left: 30%;opacity: .8;}
+    100% {bottom: 20%; left: 35%;opacity: 0;}	
 }
 @keyframes float {
     0% {bottom: 0%; left: -20%;}

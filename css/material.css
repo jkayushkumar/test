@@ -4,7 +4,6 @@
     z-index: 6;
     transform: scale(0.2);     
     animation: droneFly 30s linear 0s infinite;
-    /* -webkit-animation: droneFly 4s cubic-bezier(0, 0.2, 1, 0.8) 0s infinite;  */
 }
 .droneArm1{
     position: absolute;
