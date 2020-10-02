@@ -53,9 +53,7 @@ section{overflow: hidden;}
     cursor: pointer;
     border-radius: 5px;
 }
-.quickLinks{
-    font-size: 14px;
-}
+
 #resume{
     position: absolute;left: 50%;transform: translateX(-50%);   
     padding: 10px;width: 20%;
@@ -176,7 +174,7 @@ section{overflow: hidden;}
     .particles-js-canvas-el { height: 100% !important; }
     #sailboat{height: 30%;}
     .whoAmI{
-        font-size: 20px;
+        font-size: 22px;
         width: 80%;
     }
     .head{
@@ -188,7 +186,7 @@ section{overflow: hidden;}
         
     }
     .intro{
-        font-size: 10px;
+        font-size: 12px;
         text-align: justify;
     }
     #go{
@@ -204,7 +202,7 @@ section{overflow: hidden;}
 /* mobile landscape, tab */
 @media only screen and (min-width: 568px) and (max-width: 1024px) {
     .whoAmI{
-        font-size: 20px;
+        font-size: 22px;
         width: 60%;
     }
     .head{
@@ -216,7 +214,7 @@ section{overflow: hidden;}
         
     }
     .intro{
-        font-size: 10px;
+        font-size: 12px;
         text-align: justify;
     }
     #go{
