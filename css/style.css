@@ -18,19 +18,19 @@ section{overflow: hidden;}
     position: absolute;padding: 20px;top:20%;
     left: 50%;transform: translateX(-50%);
     text-align: center;
-    font-size: 46px;
-    font-weight: 500;
-    color: var(--theme1-c1);
+    font-size: 40px;
+    font-weight: 300;
+    color: var(--theme1-c-active);
 }
 .head{
-    font-size: 30px;
+    font-size: 24px;
 }
 .subhead
 {
-    font-size: 36px;
+    font-size: 28px;
 }
 .intro{
-    font-size: 20px;
+    font-size: 16px;
     text-align: justify;
 }
 #go{
@@ -42,10 +42,46 @@ section{overflow: hidden;}
     color: var(--theme1-c1);
     text-align: center;
 }
+#contact{
+    position: absolute;left: 5%;
+    padding: 10px;width: 20%;
+    border: 1px solid var(--theme1-c-active);
+    color: var(--theme1-c-active);
+    font-size: 14px;
+    text-align: center;
+    display: flex;justify-content: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.quickLinks{
+    font-size: 14px;
+}
+#resume{
+    position: absolute;left: 50%;transform: translateX(-50%);   
+    padding: 10px;width: 20%;
+    border: 1px solid var(--theme1-c-active);
+    color: var(--theme1-c-active);
+    font-size: 14px;
+    text-align: center;
+    display: flex;justify-content: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#portfolio{
+   position: absolute;right: 5%;
+    padding: 10px;width: 20%;
+    border: 1px solid var(--theme1-c-active);
+    color: var(--theme1-c-active);
+    font-size: 14px;
+    text-align: center;
+    display: flex;justify-content: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
 #surface{
     position: absolute;z-index: 0;
     height: 85.5%;width: 100%;top: 0;
-    background-image: url("../images/web/surfaceSky.png");
+    background-image: url("../images/web/sky.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -57,6 +93,7 @@ section{overflow: hidden;}
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
+    box-shadow: 0px 3px 6px #b6e1f2b4 inset;
 }
 #sailboat{
     position: absolute;z-index: -1;
@@ -139,21 +176,19 @@ section{overflow: hidden;}
     .particles-js-canvas-el { height: 100% !important; }
     #sailboat{height: 30%;}
     .whoAmI{
-        font-size: 26px;
-        font-weight: 500;
-        color: var(--theme1-c1);
-        width: 85%;
+        font-size: 20px;
+        width: 80%;
     }
     .head{
-        font-size: 16px;
+        font-size: 14px;
     }
     .subhead
     {
-        font-size: 20px;
+        font-size: 16px;
         
     }
     .intro{
-        font-size: 12px;
+        font-size: 10px;
         text-align: justify;
     }
     #go{
@@ -162,24 +197,26 @@ section{overflow: hidden;}
         text-align: center;
         width: 80%;
     }
+    #contact{font-size: 10px;padding: 6px;}
+    #resume{font-size: 10px;padding: 6px;}
+    #portfolio{font-size: 10px;padding: 6px;}
 }
 /* mobile landscape, tab */
 @media only screen and (min-width: 568px) and (max-width: 1024px) {
     .whoAmI{
-        font-size: 26px;
-        font-weight: 500;
-        color: var(--theme1-c1);
+        font-size: 20px;
         width: 60%;
     }
     .head{
-        font-size: 16px;
+        font-size: 14px;
     }
     .subhead
     {
-        font-size: 20px;
+        font-size: 16px;
+        
     }
     .intro{
-        font-size: 12px;
+        font-size: 10px;
         text-align: justify;
     }
     #go{
@@ -188,4 +225,7 @@ section{overflow: hidden;}
         text-align: center;
         width: 80%;
     }
+    #contact{font-size: 10px;padding: 6px;}
+    #resume{font-size: 10px;padding: 6px;}
+    #portfolio{font-size: 10px;padding: 6px;}
 }
