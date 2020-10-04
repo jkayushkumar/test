@@ -3,7 +3,7 @@ particlesJS('surface',
   {
     "particles": {
       "number": {
-        "value": 100,
+        "value": 200,
         "density": {
           "enable": true,
           "value_area": 900
@@ -43,7 +43,7 @@ particlesJS('surface',
         "random": false,
         "anim": {
           "enable": true,
-          "speed": 8,
+          "speed": 15,
           "size_min": 0.1,
           "sync": false
         }
