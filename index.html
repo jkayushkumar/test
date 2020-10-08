@@ -24,14 +24,18 @@
         </script>
     </head>
     <body ontouchstart="">
+        <div class="quickLinks">
+            
+            
+            <div id="contact" class="quickLinkTab ripple" onclick="showContactModal()">Contact</div>
+        </div>
         <div id="surface">
             <div class="whoAmI">Ayush Kumar
                 <p class="head">Developer | Designer</p> 
                 <p class="head">I fuse technology with creativity</p>
                 <P class="intro noDisplay"></p>
-                <div class="quickLinks">
-                    <div id="contact" class="ripple" onclick="showContactModal()">Contact</div>
-                    <div id="resume" class="ripple" onclick="showResumeModal()">Resume</div>                    
+                <div class="explore">
+                    <div class="quickLinkTab ripple" onclick="showResumeModal()">&nbsp;&nbsp;R&#xe9;sum&#xe9;&nbsp;&nbsp;</div>
                 </div>
             </div>
             <div class="seaWave"></div>
@@ -81,6 +85,8 @@
             </div>
         </div> 
         <script src="js/rain.js"></script>
+        <div id="diveOut"onclick="diveOUT()" class="dive ripple noDisplay">Dive Out&nbsp;&#x21e7;</div>  
+        <div id="diveIn"onclick="diveIN()" class="dive ripple noDisplay">Dive In&nbsp;&#x21e9;</div>
         <div id="sea">
             <div id="depth1" class="droplets1">                
                 <div id="fishLV1" class="goldfish"></div>
