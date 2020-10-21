@@ -1,9 +1,9 @@
 particlesJS('depth1',
-  
+
   {
     "particles": {
       "number": {
-        "value": 50,
+        "value": 200,
         "density": {
           "enable": true,
           "value_area": 900
@@ -107,7 +107,7 @@ particlesJS('depth1',
         }
       }
     },
-    "retina_detect": true,    
+    "retina_detect": true,
   }
 
 );
