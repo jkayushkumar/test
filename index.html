@@ -4,7 +4,7 @@
 <head>
     <meta name="viewport" content="user-scalable=no, width=device-width,height=device-height, initial-scale=1.0" />
     <meta name="theme-color" content='#1d2097' />
-    <link rel="icon" href="images/logo/ayush1.png">
+    <link rel="icon" href="images/logo/ayush.png">
     <title>Ayush</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600" />
@@ -20,7 +20,10 @@
     <script type="text/javascript" src="js/bundle/jquery-3.5.1.min.js"></script>
     <script type="text/javascript" src="js/bundle/particles.min.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/project/project.js"></script>
     <script type="text/javascript" src="js/modal/modal.js"></script>
+    <script type="text/javascript" src="js/modal/projectModal.js"></script>
+    <script type="text/javascript" src="js/modal/miscModal.js"></script>
     <script>
         window.onbeforeunload = function () {
             window.scrollTo(0, 0);
@@ -30,7 +33,7 @@
 
 <body ontouchstart="">
     <!-- quick links-------------- -->
-    <div class="quickLinks">
+    <div class="quickLinks">        
         <div id="contact" class="quickLinkTab ripple" onclick="showContactModal()">Contact</div>
     </div>
     <!-- turbulence ---------------------- -->
@@ -44,16 +47,15 @@
         </filter>
     </svg>
     <div id="surface">
+        <div class="logoMain"></div>
         <!-- intro----------------- -->
         <div class="whoAmI">Ayush Kumar
-            <p class="head">Developer | Designer</p>
+            <p class="head">Designer | Developer</p>
             <p class="subhead">I fuse technology with creativity</p>
             <P class="intro noDisplay"></p>
             <div class="explore">
-                <div class="quickLinkTab ripple" style="background-color: #11a8e4;" onclick="showResumeModal()">
-                    &nbsp;&nbsp;R&#xe9;sum&#xe9;&nbsp;&nbsp;</div>
-                <div class="quickLinkTab ripple" style="background-color: #11a8e4;" onclick="diveIN()">
-                    &nbsp;&nbsp;Explore&nbsp;&nbsp;</div>
+                <div class="quickLinkTab ripple" onclick="showResumeModal()" style="background-color: #11a8e4;">&nbsp;&nbsp;R&#xe9;sum&#xe9;&nbsp;&nbsp;</div>
+                <div class="quickLinkTab ripple" onclick="diveIN()" style="background-color: #11a8e4;">&nbsp;&nbsp;Explore&nbsp;&nbsp;</div>
             </div>
         </div>
         <div class="seaWave turb"></div>
@@ -105,21 +107,30 @@
     <script src="js/rain.js"></script>
     <div id="diveOut" onclick="diveOUT()" class="dive ripple noDisplay">Dive Out&nbsp;&#x21e7;</div>
     <div id="diveIn" onclick="diveIN()" class="dive ripple noDisplay">Dive In&nbsp;&#x21e9;</div>
+    <div id="copyright">Copyright <sup>&#169;</sup> 2020 Ayush Kumar. All Rights Reserved.</div>
     <!-- underwater------------------ -->
     <div id="sea">
         <div id="depth1" class="droplets1">
             <div id="fishLV1" class="goldfish"></div>
             <div id="fishLV2" class="fish2"></div>
+            <!-- project----------------- -->
+            
         </div>
         <script src="js/sea.js"></script>
         <div id="depth2" class="droplets2">
             <img id="fishLV3" class="orca">
             <div id="fishLV4" class="hammer"></div>
+            <!-- miscellaneous------------ -->
+            <!-- <div class="contentHolder">
+                </div> -->
         </div>
         <script src="js/sea2.js"></script>
         <div id="depth3" class="droplets3">
             <div id="fishLV4B1" class="jelly"></div>
             <div id="fishLV4B2" class="jelly2"></div>
+            <!-- clients------------------ -->
+            <!-- <div class="contentHolder">
+                </div> -->
         </div>
         <script src="js/sea3.js"></script>
         <div class="depth4"></div>
@@ -148,6 +159,16 @@
     <div id="resumeModal" class="modal">
         <div class="pdf-content">
             <iframe id="resumePDF" src="documents/Ayush.pdf#view=FitBH" frameborder="0"></iframe>
+        </div>
+    </div>
+    <div id="projectModal" class="modal-project">
+        <div class="modal-content-project">
+            <img id="prjModalImg" />
+        </div>
+    </div>
+    <div id="miscModal" class="modal-misc">
+        <div class="modal-content-misc">
+            <img id="miscModalImg" />
         </div>
     </div>
 </body>

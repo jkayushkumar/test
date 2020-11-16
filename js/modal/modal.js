@@ -11,5 +11,6 @@ window.onclick = function (event) {
     || event.target == document.getElementById("projectModal")) {
     document.getElementById("contactModal").style.display = "none";
     document.getElementById("resumeModal").style.display = "none";
+    document.getElementById("projectModal").style.display = "none";
   }
 }
