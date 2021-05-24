@@ -25,7 +25,7 @@ function diveIN() {
                 document.getElementById("diveOut").classList.remove("noDisplay");
                 document.getElementById("diveIn").classList.remove("noClick");
                 document.getElementById("diveIn").classList.remove("noDisplay");
-                
+
                 updatingCSS = false;
             }, 1500);
 
@@ -78,7 +78,7 @@ function diveOUT() {
             document.getElementById("depth2").classList.remove("ontop");
             document.getElementById("depth3").classList.remove("ontop");
             document.getElementById("diveOut").classList.add("noDisplay");
-            
+
             document.getElementById("diveIn").classList.add("noDisplay");
             $('html, body').animate({ scrollTop: $("#surface").offset().top }, 1500);
             window.setTimeout(function () {

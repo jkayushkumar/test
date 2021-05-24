@@ -6,12 +6,10 @@
     <meta name="robots" content="index,follow">
     <meta name="viewport" content="user-scalable=no, width=device-width,height=device-height, initial-scale=1.0" />
     <meta name="theme-color" content='#1d2097' />
-    <link rel="icon" href="images/logo/ayush.png">
-    <title>Ayush</title>    
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,500,600" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600" />
+    <link rel="icon" href="images/logo/ayush.svg">
+    <title>Ayush</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/material.css">
@@ -29,11 +27,11 @@
     <script>
         window.onbeforeunload = function () {
             window.scrollTo(0, 0);
-        }; 
+        };
     </script>
 </head>
 
-<body ontouchstart="">
+<body>
     <!-- quick links-------------- -->
     <div class="quickLinks">
         <div id="contact" class="quickLinkTab ripple" onclick="showContactModal()">Contact</div>
@@ -48,98 +46,100 @@
                 values="0.02 0.06;0.04 0.08;0.02 0.06" repeatCount="indefinite" />
         </filter>
     </svg>
-    <div id="surface">
-        <div class="logoMain"></div>
-        <!-- intro----------------- -->
-        <div class="whoAmI">Ayush Kumar
-            <p class="head">Designer | Developer</p>
-            <p class="subhead">I fuse technology with creativity</p>
-            <P class="intro noDisplay"></p>
-            <div class="explore">
-                <div class="quickLinkTab ripple" onclick="showResumeModal()" style="background-color: #11a8e4;">
-                    &nbsp;&nbsp;R&#xe9;sum&#xe9;&nbsp;&nbsp;</div>
-                <div class="quickLinkTab ripple" onclick="diveIN()" style="background-color: #11a8e4;">
-                    &nbsp;&nbsp;Explore&nbsp;&nbsp;</div>
-            </div>
-        </div>
-        <div class="seaWave turb"></div>
-        <div id="sailboat" class="sailboatAnimate"></div>
-        <div class="drone">
-            <div class="droneArm1">
-                <div class="fanMount1"></div>
-            </div>
-            <div class="fanCover1">
-                <div class="propellerAClock">
-                    <div class="fanBlade3"></div>
-                    <div class="fanBlade4"></div>
-                    <div class="bladeMount"></div>
+    <main>
+        <section id="surface">
+            <!-- <div class="logoMain"></div> -->
+            <!-- intro----------------- -->
+            <div class="whoAmI">Ayush Kumar
+                <p class="head">Designer | Developer</p>
+                <p class="subhead">I fuse technology with creativity</p>
+                <P class="intro noDisplay"></p>
+                <div class="explore">
+                    <div class="quickLinkTab ripple" onclick="showResumeModal()" style="background-color: #11a8e4;">
+                        &nbsp;&nbsp;R&#xe9;sum&#xe9;&nbsp;&nbsp;</div>
+                    <div class="quickLinkTab ripple" onclick="diveIN()" style="background-color: #11a8e4;">
+                        &nbsp;&nbsp;Explore&nbsp;&nbsp;</div>
                 </div>
             </div>
-            <div class="droneArm2">
-                <div class="fanMount2"></div>
-            </div>
-            <div class="fanCover2">
-                <div class="propellerClock">
-                    <div class="fanBlade1"></div>
-                    <div class="fanBlade2"></div>
-                    <div class="bladeMount"></div>
+            <div class="seaWave turb"></div>
+            <div id="sailboat" class="sailboatAnimate"></div>
+            <div class="drone">
+                <div class="droneArm1">
+                    <div class="fanMount1"></div>
                 </div>
-            </div>
-            <div class="droneArm3">
-                <div class="fanMount3"></div>
-            </div>
-            <div class="fanCover3">
-                <div class="propellerAClock">
-                    <div class="fanBlade3"></div>
-                    <div class="fanBlade4"></div>
-                    <div class="bladeMount"></div>
+                <div class="fanCover1">
+                    <div class="propellerAClock">
+                        <div class="fanBlade3"></div>
+                        <div class="fanBlade4"></div>
+                        <div class="bladeMount"></div>
+                    </div>
                 </div>
-            </div>
-            <div class="droneArm4">
-                <div class="fanMount4"></div>
-            </div>
-            <div class="fanCover4">
-                <div class="propellerClock">
-                    <div class="fanBlade1"></div>
-                    <div class="fanBlade2"></div>
-                    <div class="bladeMount"></div>
+                <div class="droneArm2">
+                    <div class="fanMount2"></div>
                 </div>
+                <div class="fanCover2">
+                    <div class="propellerClock">
+                        <div class="fanBlade1"></div>
+                        <div class="fanBlade2"></div>
+                        <div class="bladeMount"></div>
+                    </div>
+                </div>
+                <div class="droneArm3">
+                    <div class="fanMount3"></div>
+                </div>
+                <div class="fanCover3">
+                    <div class="propellerAClock">
+                        <div class="fanBlade3"></div>
+                        <div class="fanBlade4"></div>
+                        <div class="bladeMount"></div>
+                    </div>
+                </div>
+                <div class="droneArm4">
+                    <div class="fanMount4"></div>
+                </div>
+                <div class="fanCover4">
+                    <div class="propellerClock">
+                        <div class="fanBlade1"></div>
+                        <div class="fanBlade2"></div>
+                        <div class="bladeMount"></div>
+                    </div>
+                </div>
+                <div class="centerDisk"></div>
             </div>
-            <div class="centerDisk"></div>
-        </div>
-    </div>
-    <script src="js/rain.js"></script>
-    <div id="diveOut" onclick="diveOUT()" class="dive ripple noDisplay">Dive Out&nbsp;&#x21e7;</div>
-    <div id="diveIn" onclick="diveIN()" class="dive ripple noDisplay">Dive In&nbsp;&#x21e9;</div>
-    <div id="copyright">Copyright &#169; 2021 Ayush Kumar. All Rights Reserved.</div>
-    <!-- underwater------------------ -->
-    <div id="sea">
-        <div id="depth1" class="droplets1">
-            <div id="fishLV1" class="goldfish"></div>
-            <div id="fishLV2" class="fish2"></div>
-            <!-- project----------------- -->
+        </section>
+        <script src="js/rain.js"></script>
+        <div id="diveOut" onclick="diveOUT()" class="dive ripple noDisplay">Dive Out&nbsp;&#x21e7;</div>
+        <div id="diveIn" onclick="diveIN()" class="dive ripple noDisplay">Dive In&nbsp;&#x21e9;</div>
+        <div id="copyright">Copyright &#169; 2021 Ayush Kumar. All Rights Reserved.</div>
+        <!-- underwater------------------ -->
+        <div id="sea">
+            <section id="depth1" class="droplets1">
+                <div id="fishLV1" class="goldfish"></div>
+                <div id="fishLV2" class="fish2"></div>
+                <!-- project----------------- -->
 
+            </section>
+            <script src="js/sea.js"></script>
+            <section id="depth2" class="droplets2">
+                <img id="fishLV3" class="orca">
+                <div id="fishLV4" class="hammer"></div>
+                <!-- miscellaneous------------ -->
+                <!-- <div class="contentHolder">
+                </div> -->
+            </section>
+            <script src="js/sea2.js"></script>
+            <section id="depth3" class="droplets3">
+                <div id="fishLV4B1" class="jelly"></div>
+                <div id="fishLV4B2" class="jelly2"></div>
+                <!-- clients------------------ -->
+                <!-- <div class="contentHolder">
+                </div> -->
+            </section>
+            <script src="js/sea3.js"></script>
+            <div class="depth4"></div>
         </div>
         <script src="js/sea.js"></script>
-        <div id="depth2" class="droplets2">
-            <img id="fishLV3" class="orca">
-            <div id="fishLV4" class="hammer"></div>
-            <!-- miscellaneous------------ -->
-            <!-- <div class="contentHolder">
-                </div> -->
-        </div>
-        <script src="js/sea2.js"></script>
-        <div id="depth3" class="droplets3">
-            <div id="fishLV4B1" class="jelly"></div>
-            <div id="fishLV4B2" class="jelly2"></div>
-            <!-- clients------------------ -->
-            <!-- <div class="contentHolder">
-                </div> -->
-        </div>
-        <script src="js/sea3.js"></script>
-        <div class="depth4"></div>
-    </div>
-    <script src="js/sea.js"></script>
+    </main>
     <!-- Modals----------- -->
     <div id="contactModal" class="modal">
         <div class="modal-content">
@@ -150,7 +150,8 @@
                 <div class="contactRow" onclick=""><img src="images/glyph/call.png" width="30px">&nbsp;&nbsp;&nbsp;+91
                     8297278638</div><br />
                 <div class="contactRow" onclick=" window.open('https://www.linkedin.com/in/jkayushkumar/','_blank')">
-                    <img src="images/glyph/linkedIn.png" width="30px">&nbsp;&nbsp;&nbsp;jkayushkumar</div><br />
+                    <img src="images/glyph/linkedIn.png" width="30px">&nbsp;&nbsp;&nbsp;jkayushkumar
+                </div><br />
                 <div class="contactRow" onclick=" window.open('https://www.behance.net/jkayushkumar','_blank')"><img
                         src="images/glyph/behance.png" width="30px">&nbsp;&nbsp;&nbsp;jkayushkumar</div><br />
                 <div class="contactRow" onclick=" window.open('https://github.com/jkayushkumar','_blank')"><img
